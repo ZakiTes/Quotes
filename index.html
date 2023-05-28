@@ -35,7 +35,7 @@ function copyText() {
                 const textToCopy = quote.innerHTML + " ---- by " + author.innerHTML;
                 navigator.clipboard.writeText(textToCopy)
                     .then(() => {
-                        alert(textToCopy);
+                        //alert(textToCopy);
                     })
                     .catch((error) => {
                         console.error("Copy failed:", error);
